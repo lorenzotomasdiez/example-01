@@ -1,0 +1,1 @@
+export { default as PayorcCheckoutModal } from './checkout-modal';
