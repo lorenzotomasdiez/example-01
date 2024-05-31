@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react"
-import { expect, vitest } from "vitest"
+import { expect } from "vitest"
 import PayorcCheckoutModal from "./checkout-modal"
 
 describe(('PayorcCheckoutModal'), () => {

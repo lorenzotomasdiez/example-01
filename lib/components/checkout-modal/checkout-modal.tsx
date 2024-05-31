@@ -1,6 +1,5 @@
 import InstafansLogo from "../../assets/if/logo";
 import { mockedInvoice } from "../../mock/invoice";
-import { PayorcTransaction } from "../../types/transaction";
 import { BiscuitButton } from "../biscuit-button";
 import { cn } from "../../utils";
 import { PayorcCheckoutInvoice } from "./invoice";
@@ -23,7 +22,6 @@ export default function PayorcCheckoutModal({
   merchant_id
 }: Props) {
   const [loading, setLoading] = useState(true);
-  const [transaction, setTransaction] = useState<PayorcTransaction | null>();
   useEffect(() => {
     getMerchantById().then(() => {
       setLoading(false);
