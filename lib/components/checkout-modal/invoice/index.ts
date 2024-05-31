@@ -1,0 +1,1 @@
+export { default as PayorcCheckoutInvoice } from "./checkout-invoice";

@@ -1,10 +1,13 @@
 import { Meta, StoryObj } from '@storybook/react';
-import PayorcCheckout from './payorc-checkout';
+import PayorcCheckoutExample from './payorc-checkout-example';
 
 const meta = {
   title: "Example/PayorcCheckout",
-  component: PayorcCheckout,
-} satisfies Meta<typeof PayorcCheckout>;
+  component: PayorcCheckoutExample,
+  args: {
+    handleSubmit: () => { }
+  }
+} satisfies Meta<typeof PayorcCheckoutExample>;
 
 export default meta;
 

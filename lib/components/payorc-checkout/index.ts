@@ -1,1 +1,0 @@
-export { default as PayorcCheckout } from "./payorc-checkout";

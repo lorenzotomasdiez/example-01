@@ -1,1 +1,1 @@
-export * from "./payorc-checkout";
+export * from "./payorc-checkout-example";

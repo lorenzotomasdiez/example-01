@@ -1,0 +1,1 @@
+export { default as PayorcCheckoutLoader } from './checkout-loader';

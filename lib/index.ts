@@ -1,6 +1,6 @@
 import "./index.css";
-import { PayorcCheckout } from './components';
+import { payorcInitialiazer } from './utils/initializer';
 
 export {
-  PayorcCheckout
+  payorcInitialiazer
 };

@@ -1,0 +1,1 @@
+export { default as PayorcCheckoutForm } from "./checkout-form";

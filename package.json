@@ -1,6 +1,6 @@
 {
   "name": "@ruffo/example-01",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "@fontsource/montserrat": "^5.0.18",
-    "@vitejs/plugin-react-swc": "^3.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -50,6 +49,7 @@
     "@typescript-eslint/eslint-plugin": "^7.11.0",
     "@typescript-eslint/parser": "^7.11.0",
     "@vitejs/plugin-react": "^4.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.0",
     "autoprefixer": "^10.4.19",
     "clsx": "^2.1.1",
     "eslint": "^8.57.0",
@@ -57,6 +57,7 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "eslint-plugin-storybook": "^0.8.0",
     "jsdom": "^24.1.0",
+    "lucide-react": "^0.381.0",
     "postcss": "^8.4.38",
     "react-hook-form": "^7.51.5",
     "storybook": "^8.1.4",
