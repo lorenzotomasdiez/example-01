@@ -27,7 +27,8 @@
       "@/*": [
         "./lib/*"
       ]
-    }
+    },
+    "outDir": "./dist"
   },
   "include": [
     "lib"
