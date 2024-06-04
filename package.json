@@ -1,6 +1,6 @@
 {
   "name": "@ruffo/example-01",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
@@ -27,6 +27,11 @@
   },
   "dependencies": {
     "@fontsource/montserrat": "^5.0.18"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.5.0",
