@@ -32,7 +32,7 @@ export default function PayorcCheckoutModal({
     return <PayorcCheckoutLoader />
   }
   return (
-    <div className="fixed w-screen h-screen inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="fixed w-screen h-screen inset-0 bg-black bg-opacity-50 flex justify-center items-center text-black">
       <div className={cn(
         "relative bg-payorc-purple p-4 rounded-3xl w-full h-full max-w-screen-lg flex flex-col gap-4",
         "lg:max-h-[600px] lg:p-6"

@@ -1,6 +1,6 @@
 {
   "name": "@ruffo/example-01",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
@@ -26,9 +26,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@fontsource/montserrat": "^5.0.18",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@fontsource/montserrat": "^5.0.18"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.5.0",
@@ -59,6 +57,8 @@
     "jsdom": "^24.1.0",
     "lucide-react": "^0.381.0",
     "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.5",
     "storybook": "^8.1.4",
     "tailwind-merge": "^2.3.0",
