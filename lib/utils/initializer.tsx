@@ -1,7 +1,7 @@
 import { PayorcCheckoutModal } from '../components/checkout-modal';
 import ReactDOM from 'react-dom/client';
 
-interface Props {
+interface PayorcInitializerProps {
   checkout_id?: string;
   onCancel?: () => void;
   merchant_id: string;
@@ -15,7 +15,7 @@ export function payorcInitialiazer({
   merchant_id,
   onSuccess,
   onError
-}: Props) {
+}: PayorcInitializerProps) {
   const checkout = document.getElementById(checkout_id);
   if (checkout) {
     ReactDOM.createRoot(checkout).render(

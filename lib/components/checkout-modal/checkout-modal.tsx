@@ -9,7 +9,7 @@ import { CircleX } from "lucide-react";
 import { PayorcCheckoutLoader } from "./loader";
 import { getMerchantById } from "../../services";
 
-interface Props {
+interface PayorcCheckoutModalProps {
   onCancel?: () => void;
   onSuccess?: () => void;
   onError?: () => void;
@@ -20,7 +20,7 @@ interface Props {
 export default function PayorcCheckoutModal({
   onCancel,
   merchant_id
-}: Props) {
+}: PayorcCheckoutModalProps) {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     getMerchantById().then(() => {
